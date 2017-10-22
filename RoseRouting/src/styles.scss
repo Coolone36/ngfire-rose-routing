@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/* Use this: https://getmdl.io/customize/index.html to help choose the two colors you want.*/
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    margin: 0;
+    background-color: #ddd;
+}
