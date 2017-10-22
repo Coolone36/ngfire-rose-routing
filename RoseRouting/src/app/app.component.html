@@ -1,6 +1,10 @@
 <mat-toolbar color="primary">
     Rose Routing
+    <span fxFlex></span>
+    <a mat-button type="button" [routerLink]="['/home']" routerLinkActive="active">
+        <mat-icon>home</mat-icon></a>
+    <a mat-button type="button" [routerLink]="['/signin']" routerLinkActive="active">Sign In</a>
 </mat-toolbar>
-<button type="button" [routerLink]="['/home']">Home</button>
-<button type="button" [routerLink]="['/signin']">Sign In</button>
+<mat-card>
 <router-outlet></router-outlet>
+</mat-card>
