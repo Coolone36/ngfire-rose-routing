@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './+home/home.component';
 import { SigninComponent } from './+signin/signin.component';
+import { MoenchComponent } from './+moench/moench.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -70,6 +71,7 @@ export const MaterialModules = [
     AppComponent,
     HomeComponent,
     SigninComponent,
+    MoenchComponent,
   ],
   imports: [
     BrowserModule,
