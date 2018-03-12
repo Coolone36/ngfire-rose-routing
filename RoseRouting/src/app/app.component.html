@@ -1,5 +1,6 @@
 <mat-toolbar color="primary">
-    Rose Routing
+    <span fxHide.xs>Rose Routing</span>
+    <span fxHide.xs fxFlex></span>
     <span fxFlex></span>
     <a mat-button type="button" [routerLink]="['/home']" routerLinkActive="active">
         <mat-icon>home</mat-icon>
@@ -13,6 +14,8 @@
     </mat-menu>
     <a mat-button type="button" [routerLink]="['/signin']" routerLinkActive="active">Sign In</a>
 </mat-toolbar>
-<mat-card>
-    <router-outlet></router-outlet>
-</mat-card>
+<div fxLayoutAlign="center center">
+    <mat-card class="container">
+        <router-outlet></router-outlet>
+    </mat-card>
+</div>
